@@ -15,6 +15,8 @@
 		139CADF91FCD0DA600BDF775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139CADF71FCD0DA600BDF775 /* LaunchScreen.storyboard */; };
 		139CAE041FCD0DA600BDF775 /* weatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CAE031FCD0DA600BDF775 /* weatherAppTests.swift */; };
 		139CAE0F1FCD0DA600BDF775 /* weatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CAE0E1FCD0DA600BDF775 /* weatherAppUITests.swift */; };
+		139CAE1D1FCD4B6B00BDF775 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CAE1C1FCD4B6B00BDF775 /* CurrentWeather.swift */; };
+		139CAE1F1FCD819A00BDF775 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CAE1E1FCD819A00BDF775 /* ForecastService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		139CAE0A1FCD0DA600BDF775 /* weatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		139CAE0E1FCD0DA600BDF775 /* weatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherAppUITests.swift; sourceTree = "<group>"; };
 		139CAE101FCD0DA600BDF775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139CAE1C1FCD4B6B00BDF775 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		139CAE1E1FCD819A00BDF775 /* ForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				139CADF71FCD0DA600BDF775 /* LaunchScreen.storyboard */,
 				139CADFA1FCD0DA600BDF775 /* Info.plist */,
 				139CADF21FCD0DA600BDF775 /* weatherApp.xcdatamodeld */,
+				139CAE1C1FCD4B6B00BDF775 /* CurrentWeather.swift */,
+				139CAE1E1FCD819A00BDF775 /* ForecastService.swift */,
 			);
 			path = weatherApp;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				139CADEE1FCD0DA600BDF775 /* ViewController.swift in Sources */,
 				139CADF41FCD0DA600BDF775 /* weatherApp.xcdatamodeld in Sources */,
+				139CAE1D1FCD4B6B00BDF775 /* CurrentWeather.swift in Sources */,
+				139CAE1F1FCD819A00BDF775 /* ForecastService.swift in Sources */,
 				139CADEC1FCD0DA600BDF775 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
